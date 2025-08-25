@@ -9,9 +9,9 @@ An autonomous warehouse robot operates in a 3x3 grid layout containing shelves, 
 
 ### State Space
 
-S={0,1,2,3,4,5,6,7,8}
-States 3 and 5 are blocked.
-State 8 is the goal state.
+S={0,1,2,3,4,5,6,7,8} <br>
+States 3 and 5 are blocked. <br>
+State 8 is the goal state. <br>
 
 ### Sample State
 
@@ -19,17 +19,17 @@ State 8 is the goal state.
 
 ### Action Space
 
-0:up
-1:down
-2:right
-3:left
+0:up <br>
+1:down <br>
+2:right <br>
+3:left <br>
 
 ### Sample Action
 
-action 2 (right) from state 0:
-    0.8 probability to move right to state 1
-    0.1 probability to move up (state 0, stays in place)
-    0.1 probability to move down (state 3, blocked)
+action 2 (right) from state 0: <br>
+    0.8 probability to move right to state 1 <br>
+    0.1 probability to move up (state 0, stays in place) <br>
+    0.1 probability to move down (state 3, blocked) <br>
 
 ### Reward Function
 
